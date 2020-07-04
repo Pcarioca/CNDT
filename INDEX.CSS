@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(250,189,154);
+
+}
+.container{
+    display:grid;
+    margin-right: 20%;
+    margin-left: 20%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 30px;
+    box-shadow: 0 30px 30px 0 rgba(0, 0, 0, 0.2), 0 30px 40px 0 rgba(0, 0, 0, 0.19);
+
+    
+}
+li{
+    display:inline-block;
+    padding:0px;
+    font-size:30px;
+    margin-right: 30px;
+
+}
+.Gucci{
+    font-family:"Arial Black";
+    font-size: 30px;
+}
+
+.nav{
+
+    background-color: rgb(255,237,214);
+    margin-left:5%;
+    margin-right:5%;
+    position: fixed;
+    left:210px;
+    width:1300px;
+    height: 80px;
+    border-radius: 10px;
+    box-shadow: 0 3px 30px 0 rgba(0, 0, 0, 0.2), 0 30px 40px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.poza{
+    padding-left:25%;
+}
+.istoric{
+    margin-top: 50px;
+    margin-left:100px;
+    font-size: large;
+}
+.sectii{
+    margin-top: 10px;
+    margin-left:100px;
+    font-size: large;
+}
+.tabel, td, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding:10px;
+    
+}
+a{
+    color:rgb(78, 36, 11);
+    text-decoration: none;
+}
+footer{
+    text-align: center;
+    background-color: rgb(44, 30, 21);
+    left: 0;
+  bottom: 0;
+  width: 100%;
+  color:white;
+}
+::placeholder{
+    text-align: center;
+}
+[type="submit"]{
+    padding-left:20px;
+    padding-right:20px;
+    
+    background-color: rgb(195, 131, 93);
+}
+#repartizat{
+    font-size: 25px;
+}
+form{
+    text-align: center;
+}
+legend{
+    text-align: left;
+}
+#picior{
+    position: fixed;
+}
