@@ -12,7 +12,7 @@ body{
     margin-top: 30px;
     box-shadow: 0 30px 30px 0 rgba(0, 0, 0, 0.2), 0 30px 40px 0 rgba(0, 0, 0, 0.19);
     margin-top: 3%;
-
+    transition-duration: .3s;
     
 }
 li{
@@ -25,6 +25,11 @@ li{
 .Tietz{
     font-family:"Arial Black";
     font-size: 30px;
+    transition-duration: .5s;
+}
+.Tietz:hover{
+    color: black;
+    
 }
 
 .nav{
@@ -33,8 +38,8 @@ li{
     margin-left:5%;
     margin-right:5%;
     position: fixed;
-    left:210px;
-    width:1300px;
+    left:110px;
+    width:1500px;
     height: 80px;
     border-radius: 10px;
     box-shadow: 0 3px 30px 0 rgba(0, 0, 0, 0.2), 0 30px 40px 0 rgba(0, 0, 0, 0.19);
@@ -72,6 +77,7 @@ footer{
   bottom: 0;
   width: 100%;
   color:white;
+  
 }
 ::placeholder{
     text-align: center;
@@ -92,5 +98,5 @@ legend{
     text-align: left;
 }
 #picior{
-    position: fixed;
+    position: absolute;
 }
