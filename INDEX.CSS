@@ -8,10 +8,10 @@ body{
     margin-left: 20%;
     background-color: white;
     border-radius: 10px;
-    padding: 20px;
-    margin-top: 30px;
+    padding: 0.5%;
+    /*margin-top: 50%;*/
     box-shadow: 0 30px 30px 0 rgba(0, 0, 0, 0.2), 0 30px 40px 0 rgba(0, 0, 0, 0.19);
-    margin-top: 3%;
+    margin-top: 4%;
     transition-duration: .3s;
     
 }
@@ -19,18 +19,18 @@ li{
     display:inline-block;
     padding:0px;
     font-size:30px;
-    margin-right: 30px;
+    margin-right: 2%;
 
 }
 .Tietz{
     font-family:"Arial Black";
-    font-size: 30px;
+    
     transition-duration: .5s;
 }
-.Tietz:hover{
+/*.Tietz:hover{
     color: black;
     
-}
+}*/
 
 .nav{
 
@@ -38,32 +38,35 @@ li{
     margin-left:5%;
     margin-right:5%;
     position: fixed;
-    left:110px;
-    width:1500px;
-    height: 80px;
+    left:10%;
+    width:70%;
+    height: 8%;
     border-radius: 10px;
     box-shadow: 0 3px 30px 0 rgba(0, 0, 0, 0.2), 0 30px 40px 0 rgba(0, 0, 0, 0.19);
-    
+}
+.nav.Tietz{
+    font-size:50%;
 }
 
 .poza{
     padding-left:25%;
+    height: 30%;
 }
 .istoric{
-    margin-top: 50px;
-    margin-left:100px;
-    font-size: large;
+    margin-top: 3%;
+    margin-left:10%;
+    font-size: 125%;
 }
 .sectii{
-    margin-top: 10px;
-    margin-left:100px;
-    font-size: large;
+    margin-top: 1%;
+    margin-left:10%;
+    font-size: 125%;
 }
 .tabel, td, th{
     border: 1px solid black;
     border-collapse: collapse;
     text-align: center;
-    padding:10px;
+    padding:1%;
     
 }
 a{
@@ -81,22 +84,37 @@ footer{
 }
 ::placeholder{
     text-align: center;
+    font-size: 150%;
+    font-weight:800;
+    color: rgb(184, 163, 152);
 }
 [type="submit"]{
-    padding-left:20px;
-    padding-right:20px;
+    padding-left:5%;
+    padding-right:5%;
+    padding-top: 4%;
+    padding-bottom: 4%;
     
     background-color: rgb(195, 131, 93);
+    font-size: 130%;
+    color: white;
+    font-weight: 700;
 }
 #repartizat{
     font-size: 25px;
 }
 form{
-    text-align: center;
+    text-align: left;
 }
 legend{
     text-align: left;
 }
 #picior{
     position: absolute;
+}
+[type="input"], [type="text"]{
+    width:90%;
+    height: 2rem;
+}
+label{
+    font-size: 160%;
 }
